@@ -4,7 +4,7 @@
     padding:0px
 }
 body {
-    background-color:#fff;
+    background-color:#000;
     font-family:monospace, sans-serif;
 }
 h1{
@@ -20,7 +20,7 @@ h1{
     border:1px solid #f2f2f2;
     text-align:center;
     border-radius:13px;
-	box-shadow:5px 5px 30px rgba(0,0,0,0.2);
+    box-shadow:5px 5px 30px rgba(0,0,0,0.2);
 }
 
 input {
