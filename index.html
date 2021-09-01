@@ -2,15 +2,19 @@
     <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <form class="interest_form" id="loan_form">
         <h1>Simple Interest Calculator</h1>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+         Amount       <input type="number"  id="principal">  <br/>
+         Interest Rate<input type="number"  id="rate">  <br/>
+         No. of  Years <input type="number"  id="years">  <br/>
+        <label>Interest :</label><span id="result"></span><br>
 
-        <button onclick="compute()">Compute</button>
+        <button onclick="compute()">Compute</button> <br/><br/>
+        &copy; <b>Everyone Can Get Rich</b>
+    </form>
     </body>
 </html>
